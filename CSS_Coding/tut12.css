@@ -1,0 +1,34 @@
+.container{
+    border: 2px solid black;
+    background-color: khaki;
+    height: 3444px;
+}
+/* CSS position: static (default), relative, absolute, fixed, sticky */
+
+.box{
+    display: inline-block;
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+}
+
+#box3{
+    /* relative: position the element relative to its normal and will leave a gap at its noramal positon*/
+    /*position: relative; */
+
+    /* absolute: position the element relative to the position of itsm first parent*/
+    /* position: absolute */
+
+    /* top: 34px; */
+    /* left: 134px */
+
+    /* fixed: position the element relative to the browser */
+    /* position: fixed;
+    right: 4px;
+    bottom: 2px */
+
+    /* sticky: position the element relative to the users scroll position */
+    position: sticky;
+    top: 3px;
+}

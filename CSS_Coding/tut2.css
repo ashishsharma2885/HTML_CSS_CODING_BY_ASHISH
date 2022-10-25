@@ -1,0 +1,24 @@
+/* element selector */
+p{
+    border: 2px solid red;
+}
+
+/* Id selector */
+#firstPara{
+    color: green;
+}
+
+/* class selector */
+.bgBlue{
+    color: blue;
+    background-color: green;
+}
+
+/* grouping selector */
+footer, span{
+    background-color: pink;
+}
+
+#secondPara{
+    color: white;
+}
